@@ -1,0 +1,50 @@
+# Dependencias
+/node_modules
+
+# Entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+logs/
+
+# Directorios de desarrollo y producción temporales
+/dist
+/build
+/coverage
+
+# Archivos de IDE y editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de depuración
+*.pid
+*.seed
+*.pid.lock
+
+# Carpetas de caché
+.cache
+
+# Archivos de sesión y datos temporales
+/sessions
+/tmp
+
+# Archivos de pruebas y cobertura
+/test
+/tests
+/__tests__
+*.spec.js
+*.test.js
