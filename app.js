@@ -30,7 +30,7 @@ const loginRoutes = require('./routes/login');
 const recuperarContrasennaRouters = require('./routes/recuperacion');
 
 //Conexion con la Base de Datos
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect(process.env.URL_SERVER, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   // useCreateIndex: true,
